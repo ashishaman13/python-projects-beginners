@@ -12,7 +12,7 @@ for item in list :
 '''
 I am putting logic , I know its lengthy
 
-first I will count the occurence of each element inside the list 
+first I will count the number of occurence of each element inside the list 
 
 
 list = [10, "hello", 10, True, "hello"]
