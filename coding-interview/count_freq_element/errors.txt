@@ -1,0 +1,31 @@
+#########################
+##  Wrong_attempt1.py  ##
+##########################
+
+/usr/local/bin/python3.12 /Users/ashishaman/AA-per-workspace/mac-personal/personal/study/Python/2025/python-projects-beginners/coding-interview/count_freq_element/count_freq_element.py
+Traceback (most recent call last):
+  File "/Users/ashishaman/AA-per-workspace/mac-personal/personal/study/Python/2025/python-projects-beginners/coding-interview/count_freq_element/count_freq_element.py", line 9, in <module>
+    frequency[item] = 1
+    ~~~~~~~~~^^^^^^
+IndexError: list assignment index out of range
+
+Process finished with exit code 1
+
+
+Understanding :
+
+In this we have taken "frequency" as an empty list, so when we were going to do
+
+frequency[item] += 1
+
+let say for first element in my_list
+
+frequency[1] += 1
+
+It will throw error, because the "frequency" list is empty and we want to modify at 1st index place , which is not present, so the error is "IndexError: list assignment index out of range"
+
+
+Solution:
+
+If we take frequency as empty dictionary then frequency[1] will treat 1 as key and whatever assignment you will do , will be considered as its value and if this key is not present it will create the key.
+
