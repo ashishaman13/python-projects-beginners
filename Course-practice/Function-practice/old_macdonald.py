@@ -12,11 +12,7 @@ def capitol(name):
     else:
         return "Name is too short"
 
-kuch_bhi = capitol('Macdowell No1 Soda')
+kuch_bhi = capitol('Macdowell')
 print(kuch_bhi)
 
-
-
-my_string = 'Hi my name is Ashish'
-my_string = 'Misissippi'
 
