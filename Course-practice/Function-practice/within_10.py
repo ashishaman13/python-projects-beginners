@@ -9,5 +9,5 @@ NOTE: abs(num) returns the absolute value of a number
 
 def number_checker(n):
     return abs(100-n) <= 10 or abs(200-n) <= 10
-result = number_checker(102)
+result = number_checker(1                                                                                                                          02)
 print(result)
